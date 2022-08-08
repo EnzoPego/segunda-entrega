@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', serif;
+}
+
+
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 
+    
+ }
+
+.logo a {
+    cursor: pointer;
+    display: flex;
+      
+}
+@media (max-width:768px ) {
+    .navegacion-principal  {
+        flex-direction: column;
+        text-align: center;  
+        padding: 45px;
+        line-height: 45px;        
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
+
+.navegacion-principal {
+    display: flex;
+}
+.navegacion-principal a { 
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    
+       
+}
+
+    
+.titulo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-size: 35px;
+}
+
+
+
+/* Información*/
+
+
+
+.titulo-informacion {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: white;
+}
+
+.lista {
+    display: flex;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-size: 18px; 
+    }
+    
+li {
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 35px; 
+    color: white;
+    }   
+
+h3 {
+    font-size: 29px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+
+.footer-informacion {
+    text-align: center;
+    margin-top: 150px;
+    color:white;
+    font-size: 18px;
+    background-color: black;
+}
+.back-informacion {
+    background-image: url(./img/back-informacion.jpg);
+    background-size:cover;
+    background-color:rgb(35,35,35,.9);
+    background-blend-mode: soft-light;
+
+}
+
+
+
+/* Contacto*/
+
+
+
+.back-contacto {
+    background-image: url(./img/back-contacto.jpg);
+    background-color:rgb(50,50,50,.4);
+    background-blend-mode: soft-light;
+    background-size: cover;
+
+}
+.titulo-contacto {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    padding-bottom: 60px;
+
+}
+
+.formulario {
+    width: min( 600px, 80% ); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.formulario fieldset {
+    border: none;
+}
+.formulario legend {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+    padding-bottom: 60px;
+    
+}
+.contenedor-campos{
+    color: white;
+    font-size: 19px;
+
+}
+@media (min-width: 768px) {
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        grid-template-rows: auto auto 200px ;
+        column-gap: 30px;
+       
+    }
+
+.campo:nth-child(3),
+.campo:nth-child(4) {
+    grid-column: 1 / 3;
+}
+
+}
+.campo {
+    margin-bottom: 10px;
+}
+.campo label {
+    
+    margin-bottom: 5px;
+    display: block;
+}
+.campo textarea {
+    height: 150px;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boton-enviar{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+.boton-enviar:hover{
+    cursor: pointer;
+}
+
+.redes {
+   display: flex;
+   justify-content: center;
+   padding-top: 60px;
+   gap: 75px;
+   
+}
+
+.footer-contacto {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+
+} 
+
+
+/*quienes somos*/
+
+
+
+.titulo-quienes-somos {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+
+.back-quienes-somos {
+    background-image: url(./img/back-quienes-somos.jpg);
+    background-color:rgb(60,60,60);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+@media (min-width:768px ) {
+    .article-flex {
+        display: flex;
+        flex-direction:row;
+        color: white;
+        font-size: 20px;
+        justify-content: center;
+        gap: 35px;      
+    }    
+}
+
+.article-flex {
+    text-align: center;
+}
+.contenido-principal {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media (min-width:768px ) {
+    .nav-grid {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        gap: 30px;
+        color: white;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        justify-items: center;
+    }
+    
+}
+.nav-grid {
+    display: grid;
+    grid-template-rows:1fr  ;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    gap: 50px;
+}
+ul {
+    list-style-type: none;
+}
+
+.calidad  {
+    font-size: 30px;
+}
+.pasion {
+    font-size: 30px;
+}
+.innovacion {
+    font-size: 30px;
+}
+
+.footer-quienes-somos {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    margin-top: 120px;
+
+}
+
+
+/*Catering y Eventos*/
+
+
+
+.titulo-catering {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;   
+}
+.back-index{
+    background-color: black;
+}
+
+
+.footer-index{
+    text-align: center;
+    margin-top: 60px;
+    color:white;
+    font-size: 18px;
+    background-color: black;
+}
+@media (max-width:768px ) {
+    .img-index {
+        width: 100%;
+    }
+    
+}
+
+
+
+/*nuestros servicios*/
+
+
+
+.titulo-nuestros-servicios {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;   
+}
+.titulos-h3 {
+    color: white;
+}
+
+.footer-nuestros-servicios {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+
+}
+
+.back-nuestros-servicios {
+    background-image: url(./img/back-nuestros-servicios.jpg);
+    background-color:rgb(50,50,50,.4);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}

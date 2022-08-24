@@ -1,0 +1,57 @@
+Hola Cecilia que tal?
+ 
+
+Aca te paso los cambios que hice :
+
+index:
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    *<meta name="keywords" content="autos, camionetas, veiculos, venta">
+    *<meta name="description" content="Venta de autos y camionetas con varias formas de pago">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    *<title>Car One</title>
+</head>
+
+
+Sobre Nosotros:
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    *<meta name="keywords" content="autos, camionetas, veiculos, venta">
+    *<meta name="description" content="Somos una empresa seria con mas de dos decadas que nos respaldan">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    *<title>Sobre Nosotros</title>
+</head>
+
+
+
+Contacto:
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    *<meta name="keywords" content="autos, camionetas, veiculos, venta">
+    *<meta name="description" content="Contactanos para tener una atencion personalizada y un presupuesto a tus necesidades">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    *<title>Contacto</title>
+</head>
+
+
+
+Usé Lighthouse para verificar el estado de mi sitio... saludos!
+

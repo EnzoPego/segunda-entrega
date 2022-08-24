@@ -1,0 +1,74 @@
+//maps
+
+$paleta: (
+   'primario': blue,
+   'secundario': red,
+   'terciario':brown
+
+);
+
+
+//variables
+
+$font-p: 16px;
+$font-h1: 50px;
+$color-principal:rgb(107, 150, 107);
+
+//extend
+
+.titulo{
+    color:$color-principal;
+    margin-bottom: 60px;  
+    font-size: $font-h1;
+    p{
+        color: map-get($paleta,primario);
+        font-size: $font-p;
+    }
+}
+.t-destacados{
+    @extend .titulo;
+    text-align: center;
+}
+
+
+
+.c-auto{
+    text-align: center;
+    color: map-get($paleta,terciario );    
+    margin-top: 20px;
+    p{
+        color:map-get($paleta,primario); 
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+
+.destacados{
+    @extend .c-auto;
+    color: map-get($paleta,primario); 
+    p{
+        color: black;
+    }
+}
+
+
+//mixin
+
+@mixin btn_personalizado ($color:red, $borde:4px solid black){
+    background-color: $color;
+    border: $borde;
+}
+
+
+.b-destacado1 {
+    @include btn_personalizado ($color:yellow)
+}
+
+
+.b-destacado2 {
+    @include btn_personalizado ($color:red)
+}
+
+.b-destacado3{
+    @include btn_personalizado ($color:green) 
+}
